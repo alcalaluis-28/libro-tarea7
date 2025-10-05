@@ -5,7 +5,7 @@
 Clona el repositorio usando el siguiente comando:
 
 ```bash
-git clone https://...
+git clone https://github.com/alcalaluis-28/libro-tarea7.git
 ```
 🛠️ 2. Restaurar la Base de Datos
 ```
@@ -78,7 +78,7 @@ Método: POST
 Cuerpo (JSON):
 ```
 📋 8. Documentación del Proyecto
-
+```
 Asegúrate de seguir las rutas y estructuras de datos establecidas en el proyecto:
 
 Endpoint de creación de libro: /api/libro (Método POST)
@@ -90,10 +90,9 @@ Endpoint de actualización de libro: /api/libro/:id (Método PUT)
 Endpoint de eliminación de libro: /api/libro/:id (Método DELETE)
 ```
 🖥️ 9. Comandos Útiles
-
 Ejecutar servidor:
 ```
-nodemon server.js
+npx nodemon server.js
 ```
 Instalar dependencias:
 ```
@@ -107,7 +106,7 @@ Asegúrate de tener la aplicación en funcionamiento accediendo a las rutas y ve
 ```
 MySQL Workbench: Para manejar la base de datos de manera visual.
 
-Postman / Thunder Client: Para probar los endpoints de la API.
+Thunder Client: Para probar los endpoints de la API.
 
 VSCode: Para editar el código y ejecutar el servidor.
-```
+
